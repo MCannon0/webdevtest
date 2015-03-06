@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Responsive tables</title>
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5">
+        <link rel="stylesheet" href="../src/css/webdevtest.css" media="all">
+        
+	<!-- Feed Data -->
+	<script type="text/javascript" src="/js/webdevtest-data.js"></script>
+    
+        <style>
+        /* styling for this demonstration screen - NOT needed for responsive tables framework */
+        .container {
+            width: 80%;
+            margin: 50px auto;
+            font-family: arial;
+            line-height: 1.5em;
+        }
+		
+        .rt-table {
+            margin-bottom: 2em;
+        }
+		
+		body {
+  background: #cccccc;
+  background: linear-gradient(to right bottom, #cccccc, #ffffff);
+		}
+		img {
+    -webkit-box-shadow: 3px 3px 3px #7C7C7C;
+    box-shadow: 0px 6px 3px #7C7C7C;
+    }
+        </style>
+    </head>
+
+    <body>
+
+        <div class="container">
+        <center>
+
+<img src="images/fortune.jpg" alt="" />
+
+
+            <h1>$1,000,000 Fortune Second-Chance Promotion</h1>
+
+            <p>Enter for the chance to win the Second-Chance prize of $1,000,000 in the $1,000,000 Fortune Promotion!</p>
+            
+             <h2>Drawing Schedule</h2>
+
+            <!-- responsive table begin ---- -->
+            <ul class="rt-table cols-12">
+
+                <!-- header row ------ -->
+                <li class="rt-head">
+                    <ul>
+                        <li class="col-2">
+                          <span class="col-heading">Prize</span>
+                        </li>
+                        <li class="col-3">
+                          <span class="col-heading">Entry Deadline</span>
+                        </li>
+                        <li class="col-3">
+                          <span class="col-heading">Drawing Date</span>
+                        </li>
+                    </ul>
+                </li>
+                <!-- row ------------- -->
+                <li class="rt-row">
+                    <dl class="col-2">
+                        <dt>Prize</dt>
+                        <dd>$10,000</dd>
+                    </dl>
+                    <dl class="col-3">
+                        <dt>Entry Deadline</dt>
+                        <dd>2016-06-07</dd>
+                    </dl>
+                    <dl class="col-3">
+                        <dt>Drawing Date</dt>
+                        <dd>2016-06-13</dd>
+                    </dl>
+                </li>
+                <!-- row ------------- -->
+                <li class="rt-row">
+                    <dl class="col-2">
+                        <dt>Prize</dt>
+                        <dd>$1,000,000</dd>
+                    </dl>
+                    <dl class="col-3">
+                        <dt>Entry Deadline</dt>
+                        <dd>2016-06-20</dd>
+                    </dl>
+                    <dl class="col-3">
+                        <dt>Drawing Date</dt>
+                        <dd>2016-06-26</dd>
+                    </dl>
+                </li>
+
+            </ul>
+             <p>Any non-winning $5 ticket is eligible for entry. Each ticket submitted will result in one (1) entry into the drawing. An unlimited number of qualifying tickets can be entered, but each ticket can only be entered once. You do not need to keep original tickets to claim a second-chance prize. However, once Official Entry Codes have been submitted online, please check the regular drawing results before discarding tickets.</p>
+            </center>
+            <center><br>
+             <h2>Your Total Tickets Entered: 2</h2>            
+			
+            <!-- responsive table begin ---- -->
+            <ul class="rt-table cols-15">
+
+                <!-- header row ------ -->
+                <li class="rt-head">
+                    <ul>
+                        <li class="col-3">
+                          <span class="col-heading">Entry Number</span>
+                        </li>
+                        <li class="col-7">
+                          <span class="col-heading">Date</span>
+                        </li>
+                    </ul>
+                </li>
+                <!-- row ------------- -->
+                <li class="rt-row">
+                    <dl class="col-3">
+                        <dt>Entry Number</dt>
+                        <dd>187554635107</dd>
+                    </dl>
+                    <dl class="col-7">
+                        <dt>Date</dt>
+                        <dd>2016-06-08</dd>
+                    </dl>
+                </li>
+                <!-- row ------------- -->
+                <li class="rt-row">
+                    <dl class="col-3">
+                        <dt>Entry Number</dt>
+                        <dd>314725611824</dd>
+                    </dl>
+                    <dl class="col-7">
+                        <dt>Date</dt>
+                        <dd>2016-06-09</dd>
+                    </dl>
+                </li>
+            </ul>
+            <!-- responsive table end ---- -->
+</center>
+        </div>
+
+<hr>
+
+        <div class="container">
+        <center>
+<img src="images/mmadness.jpg" alt="" />
+            <h1>Millionaire Madness Second-Chance Promotion</h1>
+
+            <p>Enter for the chance to win the Second-Chance prize of $1,000,000 in the Millionaire Madness Promotion!</p>
+            
+             <h2>Drawing Schedule</h2>
+
+            <!-- responsive table begin ---- -->
+            <ul class="rt-table cols-12">
+
+                <!-- header row ------ -->
+                <li class="rt-head">
+                    <ul>
+                        <li class="col-2">
+                          <span class="col-heading">Prize</span>
+                        </li>
+                        <li class="col-3">
+                          <span class="col-heading">Entry Deadline</span>
+                        </li>
+                        <li class="col-3">
+                          <span class="col-heading">Drawing Date</span>
+                        </li>
+                    </ul>
+                </li>
+                <!-- row ------------- -->
+                <li class="rt-row">
+                    <dl class="col-2">
+                        <dt>Prize</dt>
+                        <dd>$1,000</dd>
+                    </dl>
+                    <dl class="col-3">
+                        <dt>Entry Deadline</dt>
+                        <dd>2016-05-07</dd>
+                    </dl>
+                    <dl class="col-3">
+                        <dt>Drawing Date</dt>
+                        <dd>2016-05-23</dd>
+                    </dl>
+                </li>
+                <!-- row ------------- -->
+                <li class="rt-row">
+                    <dl class="col-2">
+                        <dt>Prize</dt>
+                        <dd>$10,000</dd>
+                    </dl>
+                    <dl class="col-3">
+                        <dt>Entry Deadline</dt>
+                        <dd>2016-05-20</dd>
+                    </dl>
+                    <dl class="col-3">
+                        <dt>Drawing Date</dt>
+                        <dd>2016-07-01</dd>
+                    </dl>
+                </li>
+
+            </ul>
+             <p>Any non-winning $2 ticket is eligible for entry. Each ticket submitted will result in one (1) entry into the drawing. An unlimited number of qualifying tickets can be entered, but each ticket can only be entered once. You do not need to keep original tickets to claim a second-chance prize. However, once Official Entry Codes have been submitted online, please check the regular drawing results before discarding tickets.</p>
+            </center>
+            <center><br>
+             <h2>Your Total Tickets Entered: 3</h2>            
+           
+			
+            <!-- responsive table begin ---- -->
+            <ul class="rt-table cols-15">
+
+                <!-- header row ------ -->
+                <li class="rt-head">
+                    <ul>
+                        <li class="col-3">
+                          <span class="col-heading">Entry Number</span>
+                        </li>
+                        <li class="col-7">
+                          <span class="col-heading">Date</span>
+                        </li>
+                    </ul>
+                </li>
+                <!-- row ------------- -->
+                <li class="rt-row">
+                    <dl class="col-3">
+                        <dt>Entry Number</dt>
+                        <dd>875496898312</dd>
+                    </dl>
+                    <dl class="col-7">
+                        <dt>Date</dt>
+                        <dd>2016-05-07</dd>
+                    </dl>
+                </li>
+                <!-- row ------------- -->
+                <li class="rt-row">
+                    <dl class="col-3">
+                        <dt>Entry Number</dt>
+                        <dd>027840217109</dd>
+                    </dl>
+                    <dl class="col-7">
+                        <dt>Date</dt>
+                        <dd>2016-05-08</dd>
+                    </dl>
+                </li>
+                <!-- row ------------- -->
+                <li class="rt-row">
+                    <dl class="col-3">
+                        <dt>Entry Number</dt>
+                        <dd>091830543242</dd>
+                    </dl>
+                    <dl class="col-7">
+                        <dt>Date</dt>
+                        <dd>2016-05-09</dd>
+                    </dl>
+                </li>                
+            </ul>
+            <!-- responsive table end ---- -->
+</center>
+        </div>
+        
+<hr>        
+        <div class="container">
+        <center>
+<img src="images/mmmillionaire.jpg" alt="" />
+            <h1>Money Money Millionaire Second-Chance Promotion</h1>
+
+            <p>One lucky winner will claim the Second-Chance Prize of $1,000,000 and will become a Money Money Millionaire!</p>
+            
+             <h2>Drawing Schedule</h2>
+
+            <!-- responsive table begin ---- -->
+            <ul class="rt-table cols-12">
+
+                <!-- header row ------ -->
+                <li class="rt-head">
+                    <ul>
+                        <li class="col-2">
+                          <span class="col-heading">Prize</span>
+                        </li>
+                        <li class="col-3">
+                          <span class="col-heading">Entry Deadline</span>
+                        </li>
+                        <li class="col-3">
+                          <span class="col-heading">Drawing Date</span>
+                        </li>
+                    </ul>
+                </li>
+                <!-- row ------------- -->
+                <li class="rt-row">
+                    <dl class="col-2">
+                        <dt>Prize</dt>
+                        <dd>$10,000</dd>
+                    </dl>
+                    <dl class="col-3">
+                        <dt>Entry Deadline</dt>
+                        <dd>2016-06-06</dd>
+                    </dl>
+                    <dl class="col-3">
+                        <dt>Drawing Date</dt>
+                        <dd>2016-06-13</dd>
+                    </dl>
+                </li>
+                <!-- row ------------- -->
+                <li class="rt-row">
+                    <dl class="col-2">
+                        <dt>Prize</dt>
+                        <dd>$30,000</dd>
+                    </dl>
+                    <dl class="col-3">
+                        <dt>Entry Deadline</dt>
+                        <dd>2016-06-27</dd>
+                    </dl>
+                    <dl class="col-3">
+                        <dt>Drawing Date</dt>
+                        <dd>2016-07-03T</dd>
+                    </dl>
+                </li>
+                <!-- row ------------- -->
+                <li class="rt-row">
+                    <dl class="col-2">
+                        <dt>Prize</dt>
+                        <dd>$1,000,000</dd>
+                    </dl>
+                    <dl class="col-3">
+                        <dt>Entry Deadline</dt>
+                        <dd>2016-07-01</dd>
+                    </dl>
+                    <dl class="col-3">
+                        <dt>Drawing Date</dt>
+                        <dd>2016-07-25</dd>
+                    </dl>
+                </li>
+            </ul>
+             <p>Any non-winning $5 ticket is eligible for entry. Each ticket submitted will result in one (1) entry into the drawing. An unlimited number of qualifying tickets can be entered, but each ticket can only be entered once. You do not need to keep original tickets to claim a second-chance prize. However, once Official Entry Codes have been submitted online, please check the regular drawing results before discarding tickets.</p>
+            </center>
+            <center><br>
+             <h2>Your Total Tickets Entered: 3</h2>            
+          
+			
+            <!-- responsive table begin ---- -->
+            <ul class="rt-table cols-15">
+
+                <!-- header row ------ -->
+                <li class="rt-head">
+                    <ul>
+                        <li class="col-3">
+                          <span class="col-heading">Entry Number</span>
+                        </li>
+                        <li class="col-7">
+                          <span class="col-heading">Date</span>
+                        </li>
+                    </ul>
+                </li>
+                <!-- row ------------- -->
+                <li class="rt-row">
+                    <dl class="col-3">
+                        <dt>Entry Number</dt>
+                        <dd>091830543242</dd>
+                    </dl>
+                    <dl class="col-7">
+                        <dt>Date</dt>
+                        <dd>2016-07-07</dd>
+                    </dl>
+                </li>
+                <!-- row ------------- -->
+                <li class="rt-row">
+                    <dl class="col-3">
+                        <dt>Entry Number</dt>
+                        <dd>187554635107</dd>
+                    </dl>
+                    <dl class="col-7">
+                        <dt>Date</dt>
+                        <dd>2016-07-08</dd>
+                    </dl>
+                </li>
+                <!-- row ------------- -->
+                <li class="rt-row">
+                    <dl class="col-3">
+                        <dt>Entry Number</dt>
+                        <dd>875496898312</dd>
+                    </dl>
+                    <dl class="col-7">
+                        <dt>Date</dt>
+                        <dd>2016-07-09</dd>
+                    </dl>
+                </li>                
+            </ul>
+            <!-- responsive table end ---- -->
+</center>
+        </div>        
+    </body>
+</html>
